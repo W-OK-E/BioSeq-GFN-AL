@@ -1,5 +1,7 @@
 import numpy as np
+import sys
 
+sys.path.append("/kaggle/working/")
 from clamp_common_eval.defaults import get_test_oracle
 import design_bench
 
